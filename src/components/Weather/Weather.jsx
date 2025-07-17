@@ -65,7 +65,7 @@ function Weather() {
 
     }
       catch(error){
-        alert("something went wrong .Please try again")
+        alert("something went wrong .Please try again",err)
         setWeather(false)
         
 }
