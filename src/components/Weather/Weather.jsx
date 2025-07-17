@@ -83,7 +83,7 @@ function Weather() {
 {weather?<>
       <div className='temp_icon'>
         <img src={weather.icon} alt="" />
-        <p>{weather.temp}<sup>o</sup>C</p>
+        <p>{weather.temperature}<sup>o</sup>C</p>
         <p className='place'>{weather.location}</p>
       </div> 
 
@@ -94,7 +94,7 @@ function Weather() {
         </div>
         <div className='right'>
           <img src={assets.wind} alt="" />
-          <p>{weather.windSpeed}km/h <br/> Wind speed</p>
+          <p>{weather.wind}km/h <br/> Wind speed</p>
           
         </div>
   </div> 
