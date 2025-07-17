@@ -55,7 +55,7 @@ function Weather() {
         icon:icon 
       })
 
-      await axios.post('https://your-backend.up.railway.app/api/weather', {
+      await axios.post('https://weather-1-83k3.onrender.com/weather', {
         location: data.name,
         temperature: Math.floor(data.main.temp),
         humidity: data.main.humidity,
