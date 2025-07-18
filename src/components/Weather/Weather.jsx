@@ -6,6 +6,7 @@ import cloud_icon from '../../assets/cloud.png'
 import drizzle_icon from '../../assets/drizzle.png'
 import rain_icon from '../../assets/rain.png'
 import snow_icon from '../../assets/snow.png'
+import axios from 'axios'
 
 
 function Weather() {
